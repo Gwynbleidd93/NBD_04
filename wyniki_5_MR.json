@@ -1,0 +1,438 @@
+MongoDB shell version v4.2.2
+connecting to: mongodb://127.0.0.1:27017/nbd4?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("122244a2-8d04-4ade-a2ed-6b49de161492") }
+MongoDB server version: 4.2.2
+{
+	"result" : "map_reduce_output_5",
+	"timeMillis" : 59,
+	"counts" : {
+		"input" : 160,
+		"emit" : 505,
+		"reduce" : 43,
+		"output" : 73
+	},
+	"ok" : 1
+}
+[
+	{
+		"_id" : "AFN",
+		"value" : {
+			"sumOfBalance" : 16755.489999999998,
+			"avgOfBalance" : 5585.163333333333
+		}
+	},
+	{
+		"_id" : "ALL",
+		"value" : 3325.48
+	},
+	{
+		"_id" : "AMD",
+		"value" : {
+			"sumOfBalance" : 24609.329999999998,
+			"avgOfBalance" : 4921.866
+		}
+	},
+	{
+		"_id" : "ARS",
+		"value" : {
+			"sumOfBalance" : 23242,
+			"avgOfBalance" : 4648.4
+		}
+	},
+	{
+		"_id" : "BGN",
+		"value" : {
+			"sumOfBalance" : 21200.879999999997,
+			"avgOfBalance" : 5300.219999999999
+		}
+	},
+	{
+		"_id" : "BOB",
+		"value" : 5263.3
+	},
+	{
+		"_id" : "BRL",
+		"value" : {
+			"sumOfBalance" : 49632.02,
+			"avgOfBalance" : 4512.001818181818
+		}
+	},
+	{
+		"_id" : "BWP",
+		"value" : 4076.29
+	},
+	{
+		"_id" : "BYR",
+		"value" : 5095.79
+	},
+	{
+		"_id" : "CAD",
+		"value" : {
+			"sumOfBalance" : 58375.600000000006,
+			"avgOfBalance" : 5306.872727272727
+		}
+	},
+	{
+		"_id" : "CDF",
+		"value" : {
+			"sumOfBalance" : 12228.8,
+			"avgOfBalance" : 6114.4
+		}
+	},
+	{
+		"_id" : "CLP",
+		"value" : {
+			"sumOfBalance" : 21008.95,
+			"avgOfBalance" : 5252.2375
+		}
+	},
+	{
+		"_id" : "CNY",
+		"value" : {
+			"sumOfBalance" : 470700.3800000001,
+			"avgOfBalance" : 4954.740842105264
+		}
+	},
+	{
+		"_id" : "COP",
+		"value" : {
+			"sumOfBalance" : 19746.73,
+			"avgOfBalance" : 4936.6825
+		}
+	},
+	{
+		"_id" : "CUP",
+		"value" : {
+			"sumOfBalance" : 15017.34,
+			"avgOfBalance" : 5005.78
+		}
+	},
+	{
+		"_id" : "CZK",
+		"value" : {
+			"sumOfBalance" : 37156.42,
+			"avgOfBalance" : 4644.5525
+		}
+	},
+	{
+		"_id" : "DOP",
+		"value" : {
+			"sumOfBalance" : 20674.739999999998,
+			"avgOfBalance" : 5168.6849999999995
+		}
+	},
+	{
+		"_id" : "EGP",
+		"value" : 5579.3
+	},
+	{
+		"_id" : "ETB",
+		"value" : 5436.11
+	},
+	{
+		"_id" : "EUR",
+		"value" : {
+			"sumOfBalance" : 245091.47,
+			"avgOfBalance" : 4901.8294
+		}
+	},
+	{
+		"_id" : "GBP",
+		"value" : 6149.19
+	},
+	{
+		"_id" : "GTQ",
+		"value" : 5806.3
+	},
+	{
+		"_id" : "HNL",
+		"value" : {
+			"sumOfBalance" : 16514.59,
+			"avgOfBalance" : 5504.863333333334
+		}
+	},
+	{
+		"_id" : "HRK",
+		"value" : {
+			"sumOfBalance" : 24354.82,
+			"avgOfBalance" : 4870.964
+		}
+	},
+	{
+		"_id" : "IDR",
+		"value" : {
+			"sumOfBalance" : 323922.59,
+			"avgOfBalance" : 4907.918030303031
+		}
+	},
+	{
+		"_id" : "ILS",
+		"value" : {
+			"sumOfBalance" : 16295.49,
+			"avgOfBalance" : 5431.83
+		}
+	},
+	{
+		"_id" : "IQD",
+		"value" : 4269.39
+	},
+	{
+		"_id" : "IRR",
+		"value" : {
+			"sumOfBalance" : 26504.239999999998,
+			"avgOfBalance" : 4417.373333333333
+		}
+	},
+	{
+		"_id" : "ISK",
+		"value" : 4316.41
+	},
+	{
+		"_id" : "JPY",
+		"value" : {
+			"sumOfBalance" : 60944.74,
+			"avgOfBalance" : 5078.7283333333335
+		}
+	},
+	{
+		"_id" : "KRW",
+		"value" : {
+			"sumOfBalance" : 13379.82,
+			"avgOfBalance" : 6689.91
+		}
+	},
+	{
+		"_id" : "KYD",
+		"value" : 3760.89
+	},
+	{
+		"_id" : "KZT",
+		"value" : 3788.95
+	},
+	{
+		"_id" : "LYD",
+		"value" : {
+			"sumOfBalance" : 8764.99,
+			"avgOfBalance" : 4382.495
+		}
+	},
+	{
+		"_id" : "MAD",
+		"value" : 3818.85
+	},
+	{
+		"_id" : "MGA",
+		"value" : {
+			"sumOfBalance" : 14560.99,
+			"avgOfBalance" : 4853.663333333333
+		}
+	},
+	{
+		"_id" : "MKD",
+		"value" : 3835.05
+	},
+	{
+		"_id" : "MMK",
+		"value" : 4629.42
+	},
+	{
+		"_id" : "MNT",
+		"value" : {
+			"sumOfBalance" : 21715.61,
+			"avgOfBalance" : 5428.9025
+		}
+	},
+	{
+		"_id" : "MWK",
+		"value" : 3574.42
+	},
+	{
+		"_id" : "MXN",
+		"value" : {
+			"sumOfBalance" : 50228.99999999999,
+			"avgOfBalance" : 5022.9
+		}
+	},
+	{
+		"_id" : "MYR",
+		"value" : 4781.12
+	},
+	{
+		"_id" : "NGN",
+		"value" : {
+			"sumOfBalance" : 24946.230000000003,
+			"avgOfBalance" : 4157.705000000001
+		}
+	},
+	{
+		"_id" : "NIO",
+		"value" : {
+			"sumOfBalance" : 9971.28,
+			"avgOfBalance" : 4985.64
+		}
+	},
+	{
+		"_id" : "NOK",
+		"value" : 4773.66
+	},
+	{
+		"_id" : "NPR",
+		"value" : 5792.26
+	},
+	{
+		"_id" : "NZD",
+		"value" : 5328.46
+	},
+	{
+		"_id" : "PEN",
+		"value" : {
+			"sumOfBalance" : 23227.35,
+			"avgOfBalance" : 4645.469999999999
+		}
+	},
+	{
+		"_id" : "PHP",
+		"value" : {
+			"sumOfBalance" : 118606.28,
+			"avgOfBalance" : 4941.928333333333
+		}
+	},
+	{
+		"_id" : "PKR",
+		"value" : {
+			"sumOfBalance" : 18938,
+			"avgOfBalance" : 4734.5
+		}
+	},
+	{
+		"_id" : "PLN",
+		"value" : {
+			"sumOfBalance" : 90770.78000000001,
+			"avgOfBalance" : 5042.821111111112
+		}
+	},
+	{
+		"_id" : "PYG",
+		"value" : 4874.69
+	},
+	{
+		"_id" : "RSD",
+		"value" : 4276.56
+	},
+	{
+		"_id" : "RUB",
+		"value" : {
+			"sumOfBalance" : 119749.15000000001,
+			"avgOfBalance" : 4989.547916666667
+		}
+	},
+	{
+		"_id" : "RWF",
+		"value" : 4632.88
+	},
+	{
+		"_id" : "SEK",
+		"value" : {
+			"sumOfBalance" : 70840.19,
+			"avgOfBalance" : 5060.013571428572
+		}
+	},
+	{
+		"_id" : "SRD",
+		"value" : 5286.68
+	},
+	{
+		"_id" : "THB",
+		"value" : {
+			"sumOfBalance" : 23021.96,
+			"avgOfBalance" : 4604.392
+		}
+	},
+	{
+		"_id" : "TJS",
+		"value" : 4087.71
+	},
+	{
+		"_id" : "TZS",
+		"value" : {
+			"sumOfBalance" : 7052.370000000001,
+			"avgOfBalance" : 3526.1850000000004
+		}
+	},
+	{
+		"_id" : "UAH",
+		"value" : {
+			"sumOfBalance" : 40471.84,
+			"avgOfBalance" : 5058.98
+		}
+	},
+	{
+		"_id" : "USD",
+		"value" : {
+			"sumOfBalance" : 80650.7,
+			"avgOfBalance" : 5040.66875
+		}
+	},
+	{
+		"_id" : "UZS",
+		"value" : 3573.03
+	},
+	{
+		"_id" : "VEF",
+		"value" : {
+			"sumOfBalance" : 8333.28,
+			"avgOfBalance" : 4166.64
+		}
+	},
+	{
+		"_id" : "VND",
+		"value" : {
+			"sumOfBalance" : 36160.259999999995,
+			"avgOfBalance" : 4520.032499999999
+		}
+	},
+	{
+		"_id" : "VUV",
+		"value" : 6418.27
+	},
+	{
+		"_id" : "XAF",
+		"value" : {
+			"sumOfBalance" : 14094.66,
+			"avgOfBalance" : 4698.22
+		}
+	},
+	{
+		"_id" : "XOF",
+		"value" : {
+			"sumOfBalance" : 17882.05,
+			"avgOfBalance" : 5960.683333333333
+		}
+	},
+	{
+		"_id" : "XPF",
+		"value" : 4759.07
+	},
+	{
+		"_id" : "YER",
+		"value" : {
+			"sumOfBalance" : 13712.5,
+			"avgOfBalance" : 4570.833333333333
+		}
+	},
+	{
+		"_id" : "ZAR",
+		"value" : {
+			"sumOfBalance" : 11790.92,
+			"avgOfBalance" : 3930.306666666667
+		}
+	},
+	{
+		"_id" : "ZMW",
+		"value" : 5569.56
+	},
+	{
+		"_id" : "ZWL",
+		"value" : 5792.17
+	}
+]
